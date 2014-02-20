@@ -21,6 +21,7 @@
 		4E106B3918238FC600A7D6FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E106B1B18238FC600A7D6FF /* UIKit.framework */; };
 		4E106B4118238FC600A7D6FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E106B3F18238FC600A7D6FF /* InfoPlist.strings */; };
 		4E106B4318238FC600A7D6FF /* Aufgabe_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E106B4218238FC600A7D6FF /* Aufgabe_3Tests.m */; };
+		4E9F9EB3183509C400D19502 /* TTTBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F9EB2183509C400D19502 /* TTTBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4E106B3E18238FC600A7D6FF /* Aufgabe 3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aufgabe 3Tests-Info.plist"; sourceTree = "<group>"; };
 		4E106B4018238FC600A7D6FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E106B4218238FC600A7D6FF /* Aufgabe_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aufgabe_3Tests.m; sourceTree = "<group>"; };
+		4E9F9EB1183509C400D19502 /* TTTBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTBrain.h; sourceTree = "<group>"; };
+		4E9F9EB2183509C400D19502 /* TTTBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				4E106B2D18238FC600A7D6FF /* ViewController.m */,
 				4E106B2F18238FC600A7D6FF /* Images.xcassets */,
 				4E106B1E18238FC600A7D6FF /* Supporting Files */,
+				4E9F9EB1183509C400D19502 /* TTTBrain.h */,
+				4E9F9EB2183509C400D19502 /* TTTBrain.m */,
 			);
 			path = "Aufgabe 3";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E106B2E18238FC600A7D6FF /* ViewController.m in Sources */,
+				4E9F9EB3183509C400D19502 /* TTTBrain.m in Sources */,
 				4E106B2818238FC600A7D6FF /* AppDelegate.m in Sources */,
 				4E106B2418238FC600A7D6FF /* main.m in Sources */,
 			);
@@ -460,6 +466,7 @@
 				4E106B4818238FC600A7D6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E106B4918238FC600A7D6FF /* Build configuration list for PBXNativeTarget "Aufgabe 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				4E106B4B18238FC600A7D6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
